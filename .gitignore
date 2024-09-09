@@ -1,0 +1,28 @@
+# Ignore the SQLite database file
+db.sqlite3
+
+# Ignore the virtual environment folder named 'denv'
+denv/
+
+# Ignore Python bytecode files
+*.pyc
+__pycache__/
+
+# Ignore environment variable files
+.env
+
+# Ignore Django migration files
+*/migrations/*.pyc
+*/migrations/__pycache__/
+
+# Ignore compiled code
+*.so
+
+# Ignore logs
+*.log
+
+
+# Ignore VSCode settings folder
+.vscode/
+
+
